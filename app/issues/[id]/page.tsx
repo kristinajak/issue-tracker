@@ -24,7 +24,7 @@ const IssueDetailPage = async ({ params }: Props) => {
         <Text>{issue.createdAt.toDateString()}</Text>
       </Flex>
 
-      <Card>{issue.description}</Card>
+      <Card className="mt-4">{issue.description}</Card>
     </div>
   );
 };
